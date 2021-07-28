@@ -25,7 +25,7 @@ module('Acceptance | super rentals', function (hooks) {
     await visit('/');
 
     assert.equal(currentURL(), '/');
-    
+
     assert.dom('nav a.menu-index h1').hasText('Super Car Rentals');
     assert.dom('nav a.menu-about').hasText('About');
     assert.dom('nav a.menu-contact').hasText('Contact');
