@@ -31,7 +31,12 @@ Make use of the many generators for code, try `ember help generate` for more det
 ### Running Tests
 
 * `ember test`
-* `ember test --server`
+* `ember test --server`  for fancy display
+
+Adding acceptance tests with generator:
+
+* `ember generate acceptance-test super-rentals`
+* `ember generate component-test jumbo`
 
 ### Linting
 
