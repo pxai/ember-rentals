@@ -37,6 +37,9 @@ Adding acceptance tests with generator:
 
 * `ember generate acceptance-test super-rentals`
 * `ember generate component-test jumbo`
+* `ember generate component rental/image`
+* `ember generate component-class rental/image`
+
 
 ### Linting
 
