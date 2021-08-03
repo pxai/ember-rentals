@@ -28,7 +28,6 @@ module('Integration | Component | rental/detailed', function (hooks) {
     });
   });
 
-
   test('it renders a header with a share button', async function (assert) {
     await render(hbs`<Rental::Detailed @rental={{this.rental}} />`);
 
